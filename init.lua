@@ -1,0 +1,7 @@
+require("lukas.core")
+require("lukas.lazy")
+require("lukas.set")
+vim.cmd("colorscheme kanagawa-wave")
+require("mason").setup()
+require("mason-lspconfig").setup()
+require('leap').create_default_mappings()
